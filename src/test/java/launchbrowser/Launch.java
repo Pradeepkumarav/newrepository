@@ -16,7 +16,7 @@ public class Launch {
 		  driver.get("https://demo.guru99.com/test/newtours/register.php");
 		  driver.findElement(By.id("userName")).sendKeys("pradeep");
 		  driver.findElement(By.name("firstName")).sendKeys("kumara");
-		  driver.findElement(By.linkText("REGISTER")).sendKeys("kumara");
+		  driver.findElement(By.linkText("REGISTER")).sendKeys("k");
 		  driver.findElement(By.linkText("REGISTER")).sendKeys("pradeep");
 		  
 		  
