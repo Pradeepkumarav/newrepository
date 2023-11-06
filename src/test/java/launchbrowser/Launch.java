@@ -17,6 +17,7 @@ public class Launch {
 		  driver.findElement(By.id("userName")).sendKeys("pradeep");
 		  driver.findElement(By.name("firstName")).sendKeys("kumara");
 		  driver.findElement(By.linkText("REGISTER")).sendKeys("kumara");
+		  driver.findElement(By.linkText("REGISTER")).sendKeys("pradeep");
 		  
 		  
 
